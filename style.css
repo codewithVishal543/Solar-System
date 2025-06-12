@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    color: white;
+    font-family: sans-serif;
+}
+
+#controls {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.slider-container {
+    margin-bottom: 6px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
